@@ -25,9 +25,10 @@ $desktop: 1080px;
 
   &:hover,
   &:focus,
+  &:focus-visible,
   &:active {
-    color: #0070f3;
-    border-color: #0070f3;
+    color: var(--electric-blue);
+    border-color: var(--electric-blue);
     transition: 0.5s ease-in;
   }
 
@@ -41,18 +42,17 @@ $desktop: 1080px;
     border-radius: var(--border-radius) var(--border-radius) 0 0;
     background-color: var(--blue);
   }
-
+  // if element filtered
+  .selected > li {
+    color: var(--blue);
+    font-weight: bold;
+    text-decoration: underline;
+    transition: ease-in-out 0.3s;
+  }
   // fruit/veggie element
   li {
     list-style-type: none;
     padding: 4px 0;
     color: #444;
-
-    // if element filtered
-    .selected {
-      font-weight: bold;
-      color: var(--blue);
-      text-decoration: underline;
-    }
   }
 }

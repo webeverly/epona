@@ -26,7 +26,7 @@ export const ProduceList: NextPage<ProduceListProps> = ({
   return (
     <section className={`${styles["produce-list"]} ${className}`}>
       <h2>{title}</h2>
-      <ul>
+      <ul className={query && styles["selected"]}>
         {produce.map((p) => (
           <li key={p.id}>{p.name}</li>
         ))}
