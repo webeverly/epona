@@ -1,15 +1,12 @@
-<<<<<<< HEAD
+import type { NextPage } from "next";
 import Head from "next/head";
 import { useState } from "react";
-import styles from "../styles/Home.module.css";
-import { Footer } from "../components/Footer";
-import { Header } from "../components/Header";
-import { ProduceList } from "../components/ProduceList";
-=======
-import Home from "./Home";
->>>>>>> c5625df835f70e345ca7ee733877402dbe8d312d
+import styles from "../../styles/Home.module.css";
+import { Footer } from "../../Footer";
+import { Header } from "../../Header";
+import { ProduceList } from "./ProduceList";
 
-export default function HomePage() {
+export const Home: NextPage = () => {
   const [query, setQuery] = useState("");
 
   return (
@@ -37,12 +34,10 @@ export default function HomePage() {
         />
       </main>
 
-      <div id="modal-root"></div>
-
       <Footer />
     </div>
   );
-}
+};
 
 const climactericProduce = [
   {
