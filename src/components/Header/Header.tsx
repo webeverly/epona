@@ -28,7 +28,7 @@ export const Header = ({ onQueryChange }: HeaderProps): JSX.Element => {
 
   return (
     <header className={styles.header}>
-      <h1>Search moi climactériques</h1>
+      <h1>Climacteric</h1>
       {onQueryChange ? (
         <>
           <input
@@ -38,9 +38,7 @@ export const Header = ({ onQueryChange }: HeaderProps): JSX.Element => {
             value={searchValue}
             onChange={onChange}
           />
-          <button onClick={() => setShowModal(true)}>
-            Find fruit with picture
-          </button>
+          <button onClick={() => setShowModal(true)}>Identify</button>
           <SearchByImageModal onClose={handleSearchDialog} show={showModal} />
         </>
       ) : (

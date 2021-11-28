@@ -28,13 +28,13 @@ export const Home: NextPage<HomeProps> = ({ produce }) => {
         <ProduceList
           title="Climacteric"
           className={styles.climacteric}
-          produce={(produce ?? []).filter((x) => x.isClimacteric)}
+          produce={produce.filter((x) => x.isClimacteric)}
           query={query}
         />
         <ProduceList
           title="Non-Climacteric"
           className={styles["non-climacteric"]}
-          produce={(produce ?? []).filter((x) => !x.isClimacteric)}
+          produce={produce.filter((x) => !x.isClimacteric)}
           query={query}
         />
       </main>
