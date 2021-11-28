@@ -19,7 +19,9 @@ export const ProduceList = ({
   produce,
 }: ProduceListProps): JSX.Element => {
   if (query) {
-    produce = produce.filter((x) => x.name.toLowerCase().includes(query));
+    produce = produce.filter((x) =>
+      x.name.toLowerCase().includes(query.toLowerCase())
+    );
   }
 
   return (
