@@ -1,18 +1,27 @@
-.search-by-image-modal {
-  color: var(--blue);
-  position: absolute;
-  top: 20vh;
-  box-shadow: 20px 20px 50px black;
-}
-
 .modal {
   position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
+  min-width: 400px;
   background-color: rgba(0, 0, 0, 0.5);
-  z-index: 0;
+  z-index: 5;
+  margin: 0;
+
+  .search-by-image-modal {
+    color: var(--blue);
+    min-width: 80%;
+    max-width: 90%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 20px 20px 50px black;
+    z-index: 10;
+    max-height: 90vh;
+    overflow: scroll;
+  }
 }
 
 .visuallyhidden {
