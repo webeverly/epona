@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 import { Header } from "../Header";
 import { loadProduce, ProduceData } from "../../data/produce";
 import styles from "./ProducePage.module.scss";
@@ -24,12 +25,30 @@ export const ProducePage = ({
       <Header />
 
       <section className={`${styles["produce"]} ${className}`}>
-        <h2>Produce {produce.name}</h2>
-        <p>{produce.type}</p>
+        <h2>{produce.name}</h2>
+        <p>Type: {produce.type}</p>
+        <p>Is climacteric: {nullableBooleanDisplay(produce.isClimacteric)}</p>
+        <p>
+          Is ethylene sensitive:{" "}
+          {nullableBooleanDisplay(produce.isEthyleneSensitive)}
+        </p>
+        <p>Ethylene emmission: {produce.ethyleneEmmission}</p>
+        <p>
+          Ethylene sensitivy: {produce.ethyleneSensitivity || "Unavailable"}
+        </p>
+        {produce.imageUrl && (
+          <p>
+            <img src={produce.imageUrl} alt={produce.name} />
+          </p>
+        )}
       </section>
     </div>
   );
 };
+
+function nullableBooleanDisplay(b: boolean | null): string {
+  return b === null ? "Unavailable" : b ? "Yes" : "No";
+}
 
 export const getStaticPaths = async () => {
   const data = await loadProduce("en");
@@ -39,8 +58,6 @@ export const getStaticPaths = async () => {
       params: { id: p.id },
     };
   });
-
-  console.log("fuck", paths);
 
   return {
     paths,
@@ -52,7 +69,6 @@ export const getStaticProps: GetStaticProps = async (context) => {
   const id = context.params?.id;
   const data = await loadProduce("en");
   const produce = data.find((p) => p.id === id);
-  console.log("fuck", id, produce);
   if (!produce) {
     return {
       notFound: true,
