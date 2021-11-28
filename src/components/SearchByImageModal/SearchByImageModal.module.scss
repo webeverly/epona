@@ -4,3 +4,12 @@
   top: 20vh;
   box-shadow: 20px 20px 50px black;
 }
+
+.row {
+  display: flex;
+  flex-direction: row;
+
+  .tag {
+    flex: 1;
+  }
+}
