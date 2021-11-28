@@ -1,4 +1,4 @@
-import styles from "../../styles/Home.module.css";
+import styles from "./Footer.module.scss";
 
 export const Footer = (): JSX.Element => {
   return (

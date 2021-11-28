@@ -1,0 +1,9 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: space-evenly;
+  margin: 2rem auto;
+  max-width: 1200px;
+  min-height: 100vh;
+}

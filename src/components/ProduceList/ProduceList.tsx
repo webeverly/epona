@@ -1,4 +1,4 @@
-import styles from "./ProduceList.module.css";
+import styles from "./ProduceList.module.scss";
 
 interface ProduceData {
   id: string;
@@ -27,7 +27,7 @@ export const ProduceList = ({
   return (
     <section className={`${styles["produce-list"]} ${className}`}>
       <h2>{title}</h2>
-      <ul>
+      <ul className={query && styles["selected"]}>
         {produce.map((p) => (
           <li key={p.id}>{p.name}</li>
         ))}

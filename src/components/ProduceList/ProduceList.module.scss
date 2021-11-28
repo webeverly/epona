@@ -1,0 +1,58 @@
+// media q
+$mobile: 320px;
+$tablet: 640px;
+$desktop: 1080px;
+
+.produce-list {
+  background: white;
+  border-radius: 10px;
+  border: 1px solid #eaeaea;
+  height: 100%;
+  margin: 1rem;
+  max-width: 300px;
+  text-align: left;
+  text-decoration: none;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  width: 300px;
+
+  @media (min-width: $tablet) {
+    width: 400px;
+  }
+  @media (min-width: $desktop) {
+    width: 50%;
+    max-width: 480px;
+  }
+
+  &:hover,
+  &:focus,
+  &:focus-visible,
+  &:active {
+    color: var(--electric-blue);
+    border-color: var(--electric-blue);
+    transition: 0.5s ease-in;
+  }
+
+  // title of section
+  h2 {
+    color: white;
+    padding: 16px;
+    margin: 0px; //4px 8px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: var(--border-radius) var(--border-radius) 0 0;
+    background-color: var(--blue);
+  }
+  // if element filtered
+  .selected > li {
+    color: var(--blue);
+    font-weight: bold;
+    text-decoration: underline;
+    transition: ease-in-out 0.3s;
+  }
+  // fruit/veggie element
+  li {
+    list-style-type: none;
+    padding: 4px 0;
+    color: #444;
+  }
+}
