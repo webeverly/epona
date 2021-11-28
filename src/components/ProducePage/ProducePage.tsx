@@ -59,8 +59,6 @@ export const getStaticPaths = async () => {
     };
   });
 
-  console.log("fuck", paths);
-
   return {
     paths,
     fallback: false,
@@ -71,7 +69,6 @@ export const getStaticProps: GetStaticProps = async (context) => {
   const id = context.params?.id;
   const data = await loadProduce("en");
   const produce = data.find((p) => p.id === id);
-  console.log("fuck", id, produce);
   if (!produce) {
     return {
       notFound: true,
