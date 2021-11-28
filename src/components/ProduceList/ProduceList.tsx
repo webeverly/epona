@@ -13,23 +13,40 @@ interface ProduceListProps {
   produce: ProduceData[];
 }
 
+const regexFrom = (strings: string[], flags: string) => {
+  return new RegExp(
+    strings
+      // Remove empty value
+      .filter((s) => s && s.trim().length > 0)
+      // Escape special characters
+      .map((s) => s.replace(/[()[\]{}*+?^$|#.,\/\\\s-]/g, "\\$&"))
+      // Sort for maximal munch
+      .sort((a, b) => b.length - a.length)
+      .join("|"),
+    flags
+  );
+};
+
 export const ProduceList = ({
   className,
   query,
   title,
   produce,
 }: ProduceListProps): JSX.Element => {
+  let filteredProduce = produce;
+
   if (query) {
-    produce = produce.filter((x) =>
-      x.name.toLowerCase().includes(query.toLowerCase())
-    );
+    var searchRegex = regexFrom(query.split(" "), "gi");
+    filteredProduce = produce.filter((produce: ProduceData) => {
+      return searchRegex.test(produce.name);
+    });
   }
 
   return (
     <section className={`${styles["produce-list"]} ${className}`}>
       <h2>{title}</h2>
       <ul>
-        {produce.map((p) => (
+        {filteredProduce.map((p) => (
           <li key={p.id}>
             <Link href={"/produce/" + p.id}>
               <a>{p.name}</a>
