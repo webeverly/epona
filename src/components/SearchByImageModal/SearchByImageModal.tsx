@@ -1,4 +1,4 @@
-import React, { FC, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import ReactDOM from "react-dom";
 import styles from "./SearchByImageModal.module.css";
 
@@ -8,11 +8,11 @@ interface SearchByImageModalProps {
   className?: string;
 }
 
-export const SearchByImageModal: FC<SearchByImageModalProps> = ({
+export const SearchByImageModal = ({
   onClose,
   show,
   className,
-}) => {
+}: SearchByImageModalProps): JSX.Element | null => {
   const [isBrowser, setIsBrowser] = useState(false);
   const [matchFound, setIsMatchFound] = useState(false);
 

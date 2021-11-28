@@ -1,4 +1,3 @@
-import { FC } from "react";
 import styles from "./ProduceList.module.css";
 
 interface ProduceData {
@@ -13,12 +12,12 @@ interface ProduceListProps {
   produce: ProduceData[];
 }
 
-export const ProduceList: FC<ProduceListProps> = ({
+export const ProduceList = ({
   className,
   query,
   title,
   produce,
-}) => {
+}: ProduceListProps): JSX.Element => {
   if (query) {
     produce = produce.filter((x) => x.name.toLowerCase().includes(query));
   }

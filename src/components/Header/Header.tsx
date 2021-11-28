@@ -1,11 +1,11 @@
-import { FC, useState } from "react";
+import { useState } from "react";
 import styles from "../../styles/Home.module.css";
 
 interface HeaderProps {
   onQueryChange: (query: string) => void;
 }
 
-export const Header: FC<HeaderProps> = ({ onQueryChange }) => {
+export const Header = ({ onQueryChange }: HeaderProps): JSX.Element => {
   const onChange = (e: React.FormEvent<HTMLInputElement>) => {
     const newValue = e.currentTarget.value;
     onQueryChange(newValue);

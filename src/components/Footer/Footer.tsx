@@ -1,7 +1,6 @@
-import { FC } from "react";
 import styles from "../../styles/Home.module.css";
 
-export const Footer: FC = () => {
+export const Footer = (): JSX.Element => {
   return (
     <footer className={styles.footer}>
       <a
