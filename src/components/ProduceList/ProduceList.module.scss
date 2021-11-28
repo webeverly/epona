@@ -43,12 +43,12 @@ $desktop: 1080px;
     background-color: var(--blue);
   }
   // if element filtered
-  .selected > li {
-    color: var(--blue);
-    font-weight: bold;
-    text-decoration: underline;
-    transition: ease-in-out 0.3s;
-  }
+  // .selected > li {
+  //   color: var(--blue);
+  //   font-weight: bold;
+  //   text-decoration: underline;
+  //   transition: ease-in-out 0.3s;
+  // }
   // fruit/veggie element
   li {
     list-style-type: none;
