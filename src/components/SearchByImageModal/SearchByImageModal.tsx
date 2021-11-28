@@ -49,18 +49,7 @@ export const SearchByImageModal = ({
   show,
   className,
 }: SearchByImageModalProps): JSX.Element => {
-<<<<<<< HEAD
   const [foundLabels, setFoundLabels] = useState([]);
-=======
-  const [imageTag, setImageTag] = useState("");
-  const [isModalClosed, setIsModalClosed] = useState(true);
-  const onChange = (e: React.FormEvent<HTMLInputElement>) => {
-    const newValue = e.currentTarget.value;
-    setIsMatchFound(!!newValue);
-    setImageTag(newValue);
-  };
-  const [matchFound, setIsMatchFound] = useState(false);
->>>>>>> 835742832d5ed8b2f53ef25c2b637e9ebf4e396a
 
   const closeModal: any = (e: MouseEvent) => {
     e.preventDefault();
