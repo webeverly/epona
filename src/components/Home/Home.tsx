@@ -14,6 +14,13 @@ interface HomeProps {
 export const Home: NextPage<HomeProps> = ({ produce }) => {
   const [query, setQuery] = useState("");
 
+  const leftPredicate = (p: ProduceData) => {
+    return p.isClimacteric || !p.isEthyleneSensitive;
+  };
+  const rightPredicate = (p: ProduceData) => {
+    return !p.isClimacteric || !p.isEthyleneSensitive;
+  };
+
   return (
     <div className={styles.container}>
       <Head>
@@ -28,13 +35,13 @@ export const Home: NextPage<HomeProps> = ({ produce }) => {
         <ProduceList
           title="Climacteric"
           className={styles.climacteric}
-          produce={produce.filter((x) => x.isClimacteric)}
+          produce={produce.filter(leftPredicate)}
           query={query}
         />
         <ProduceList
           title="Non-Climacteric"
           className={styles["non-climacteric"]}
-          produce={produce.filter((x) => !x.isClimacteric)}
+          produce={produce.filter(rightPredicate)}
           query={query}
         />
       </main>
