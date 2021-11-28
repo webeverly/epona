@@ -55,4 +55,11 @@ $desktop: 1080px;
     padding: 4px 0;
     color: #444;
   }
+  a {
+    &:hover,
+    &:active,
+    &:focus-visible {
+      color: var(--blue);
+    }
+  }
 }
