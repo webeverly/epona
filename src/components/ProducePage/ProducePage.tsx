@@ -1,9 +1,9 @@
 import Head from "next/head";
-import Image from "next/image";
+import { GetStaticProps } from "next";
+import Link from "next/link";
 import { Header } from "../Header";
 import { loadProduce, ProduceData } from "../../data/produce";
 import styles from "./ProducePage.module.scss";
-import { GetStaticProps } from "next";
 
 interface ProducePageProps {
   produce: ProduceData;
@@ -45,6 +45,10 @@ export const ProducePage = ({
             />
           </p>
         )}
+
+        <Link href="/">
+          <a className="button">Home</a>
+        </Link>
       </section>
     </div>
   );
