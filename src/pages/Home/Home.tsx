@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import styles from "../styles/Home.module.scss";
+import styles from "./Home.module.scss";
 import { useState } from "react";
 import { Footer } from "../../Footer";
 import { Header } from "../../Header";
