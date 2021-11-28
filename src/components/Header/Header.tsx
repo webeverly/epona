@@ -1,5 +1,5 @@
 import { useState } from "react";
-import styles from "../../styles/Home.module.css";
+import styles from "./Header.module.scss";
 import { SearchByImageModal } from "../SearchByImageModal";
 
 interface HeaderProps {
