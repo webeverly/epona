@@ -38,7 +38,11 @@ export const ProducePage = ({
         </p>
         {produce.imageUrl && (
           <p>
-            <img src={produce.imageUrl} alt={produce.name} />
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={produce.imageUrl.replace("/public", "")}
+              alt={produce.name}
+            />
           </p>
         )}
       </section>

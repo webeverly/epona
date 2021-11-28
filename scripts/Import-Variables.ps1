@@ -9,6 +9,7 @@ function Main() {
   $produce = Import-Excel "./variables.xlsx" -WorksheetName "DATA" `
   | Where-Object { $_.TYPE.Length -gt 0 };
 
+  $wc = New-Object System.Net.WebClient;
   
   $produceMapped = $produce | Select-Object -Property `
   @{ Name = "_id"; Expression = { $_."NOM_EN".ToLowerInvariant().Replace(", ", "-").Replace(" ", "-") } }, `
@@ -19,7 +20,21 @@ function Main() {
   @{ Name = "is_ethylene_sensitive"; Expression = { $_."ISSENSITIVE" -eq 1 } }, `
   @{ Name = "ethylene_emmission"; Expression = { $_."EMISSION_ETHYLENE".ToLowerInvariant().Replace(" ", "-") } }, `
   @{ Name = "ethylene_sensitivity"; Expression = { $_."SENSIBILITE_ETHYLENE" } }, `
-  @{ Name = "image_url"; Expression = { $_."IMAGE_LINK" } };
+  @{ 
+    Name       = "image_url";
+    Expression = {
+      $imageUrl = $_."IMAGE_LINK";
+      if ($imageUrl) {
+        $imageFileName = Split-Path $imageUrl -leaf;
+        $downloadTo = (Join-Path $PSScriptRoot "../public/images/produce/$imageFileName");
+        $wc.DownloadFile($imageUrl, $downloadTo);
+        return "/public/images/produce/$imageFileName";
+      }
+      else {
+        return $null;
+      } 
+    } 
+  };
 
   $produceMapped;
   $produceMapped | ConvertTo-Json | Out-File $outputFileName -Encoding UTF8;

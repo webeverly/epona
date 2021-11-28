@@ -8,7 +8,7 @@
     "is_ethylene_sensitive": false,
     "ethylene_emmission": "high",
     "ethylene_sensitivity": null,
-    "image_url": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2014/12/apple_small.gif"
+    "image_url": "/public/images/produce/apple_small.gif"
   },
   {
     "_id": "apricots",
@@ -19,7 +19,7 @@
     "is_ethylene_sensitive": false,
     "ethylene_emmission": "high",
     "ethylene_sensitivity": null,
-    "image_url": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/apricot_small.jpg"
+    "image_url": "/public/images/produce/apricot_small.jpg"
   },
   {
     "_id": "asparagus",
@@ -30,7 +30,7 @@
     "is_ethylene_sensitive": false,
     "ethylene_emmission": null,
     "ethylene_sensitivity": null,
-    "image_url": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2014/12/asparagus_small.jpg"
+    "image_url": "/public/images/produce/asparagus_small.jpg"
   },
   {
     "_id": "avocados",
@@ -41,7 +41,7 @@
     "is_ethylene_sensitive": false,
     "ethylene_emmission": "high",
     "ethylene_sensitivity": null,
-    "image_url": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/avocado_small.jpg"
+    "image_url": "/public/images/produce/avocado_small.jpg"
   },
   {
     "_id": "bananas",
@@ -52,7 +52,7 @@
     "is_ethylene_sensitive": false,
     "ethylene_emmission": "medium",
     "ethylene_sensitivity": null,
-    "image_url": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/banana_small.gif"
+    "image_url": "/public/images/produce/banana_small.gif"
   },
   {
     "_id": "beans-snap",
@@ -63,7 +63,7 @@
     "is_ethylene_sensitive": false,
     "ethylene_emmission": "very-low",
     "ethylene_sensitivity": null,
-    "image_url": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2014/12/greenbeans_small.gif"
+    "image_url": "/public/images/produce/greenbeans_small.gif"
   },
   {
     "_id": "beans-lima",
@@ -85,7 +85,7 @@
     "is_ethylene_sensitive": false,
     "ethylene_emmission": "low",
     "ethylene_sensitivity": null,
-    "image_url": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2014/12/beets_small.gif"
+    "image_url": "/public/images/produce/beets_small.gif"
   },
   {
     "_id": "blackberries",
@@ -96,7 +96,7 @@
     "is_ethylene_sensitive": false,
     "ethylene_emmission": "low",
     "ethylene_sensitivity": null,
-    "image_url": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2019/03/BlackberrySmall.jpg"
+    "image_url": "/public/images/produce/BlackberrySmall.jpg"
   },
   {
     "_id": "blueberries",
@@ -107,7 +107,7 @@
     "is_ethylene_sensitive": false,
     "ethylene_emmission": "low",
     "ethylene_sensitivity": null,
-    "image_url": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/blueberries_small.jpg"
+    "image_url": "/public/images/produce/blueberries_small.jpg"
   },
   {
     "_id": "broccoli",
@@ -118,7 +118,7 @@
     "is_ethylene_sensitive": false,
     "ethylene_emmission": "low",
     "ethylene_sensitivity": null,
-    "image_url": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2014/12/broccoli_small.jpg"
+    "image_url": "/public/images/produce/broccoli_small.jpg"
   },
   {
     "_id": "brussel-sprouts",
@@ -129,7 +129,7 @@
     "is_ethylene_sensitive": false,
     "ethylene_emmission": "low",
     "ethylene_sensitivity": null,
-    "image_url": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2014/12/brusselssprouts_small.jpg"
+    "image_url": "/public/images/produce/brusselssprouts_small.jpg"
   },
   {
     "_id": "cabbage",
@@ -140,7 +140,7 @@
     "is_ethylene_sensitive": false,
     "ethylene_emmission": "medium",
     "ethylene_sensitivity": null,
-    "image_url": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/cabbagegreen_small.gif"
+    "image_url": "/public/images/produce/cabbagegreen_small.gif"
   },
   {
     "_id": "cantaloupe",
@@ -151,7 +151,7 @@
     "is_ethylene_sensitive": false,
     "ethylene_emmission": null,
     "ethylene_sensitivity": null,
-    "image_url": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/cantaloupe_small.gif"
+    "image_url": "/public/images/produce/cantaloupe_small.gif"
   },
   {
     "_id": "carrots-topped",
@@ -162,7 +162,7 @@
     "is_ethylene_sensitive": false,
     "ethylene_emmission": "low",
     "ethylene_sensitivity": null,
-    "image_url": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/carrots_small.jpg"
+    "image_url": "/public/images/produce/carrots_small.jpg"
   },
   {
     "_id": "cauliflower",
@@ -173,7 +173,7 @@
     "is_ethylene_sensitive": false,
     "ethylene_emmission": "medium",
     "ethylene_sensitivity": null,
-    "image_url": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/cauliflower_small.jpg"
+    "image_url": "/public/images/produce/cauliflower_small.jpg"
   },
   {
     "_id": "celery",
@@ -184,7 +184,7 @@
     "is_ethylene_sensitive": false,
     "ethylene_emmission": "low",
     "ethylene_sensitivity": null,
-    "image_url": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2014/12/celery_small.jpg"
+    "image_url": "/public/images/produce/celery_small.jpg"
   },
   {
     "_id": "cherries-sweet",
@@ -195,7 +195,7 @@
     "is_ethylene_sensitive": false,
     "ethylene_emmission": "very-low",
     "ethylene_sensitivity": null,
-    "image_url": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/cherries_small.jpg"
+    "image_url": "/public/images/produce/cherries_small.jpg"
   },
   {
     "_id": "corn-sweet",
@@ -206,7 +206,7 @@
     "is_ethylene_sensitive": false,
     "ethylene_emmission": null,
     "ethylene_sensitivity": null,
-    "image_url": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/corn_small.jpg"
+    "image_url": "/public/images/produce/corn_small.jpg"
   },
   {
     "_id": "cranberries",
@@ -217,7 +217,7 @@
     "is_ethylene_sensitive": false,
     "ethylene_emmission": null,
     "ethylene_sensitivity": null,
-    "image_url": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2017/03/Cranberriesforwebsite1.jpg"
+    "image_url": "/public/images/produce/Cranberriesforwebsite1.jpg"
   },
   {
     "_id": "cucumbers",
@@ -228,7 +228,7 @@
     "is_ethylene_sensitive": false,
     "ethylene_emmission": "low",
     "ethylene_sensitivity": null,
-    "image_url": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/cucumber_small.jpg"
+    "image_url": "/public/images/produce/cucumber_small.jpg"
   },
   {
     "_id": "eggplant",
@@ -239,7 +239,7 @@
     "is_ethylene_sensitive": false,
     "ethylene_emmission": "low",
     "ethylene_sensitivity": null,
-    "image_url": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/eggplant_small.gif"
+    "image_url": "/public/images/produce/eggplant_small.gif"
   },
   {
     "_id": "endive",
@@ -272,7 +272,7 @@
     "is_ethylene_sensitive": false,
     "ethylene_emmission": "very-low",
     "ethylene_sensitivity": null,
-    "image_url": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/grapefruit_samll.gif"
+    "image_url": "/public/images/produce/grapefruit_samll.gif"
   },
   {
     "_id": "grapes",
@@ -283,7 +283,7 @@
     "is_ethylene_sensitive": false,
     "ethylene_emmission": "very-low",
     "ethylene_sensitivity": null,
-    "image_url": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/grapes_small.jpg"
+    "image_url": "/public/images/produce/grapes_small.jpg"
   },
   {
     "_id": "kiwifruit",
@@ -294,7 +294,7 @@
     "is_ethylene_sensitive": false,
     "ethylene_emmission": null,
     "ethylene_sensitivity": null,
-    "image_url": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/kiwi_small.gif"
+    "image_url": "/public/images/produce/kiwi_small.gif"
   },
   {
     "_id": "leeks",
@@ -305,7 +305,7 @@
     "is_ethylene_sensitive": false,
     "ethylene_emmission": "high",
     "ethylene_sensitivity": null,
-    "image_url": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/leeks_small.gif"
+    "image_url": "/public/images/produce/leeks_small.gif"
   },
   {
     "_id": "lemons",
@@ -316,7 +316,7 @@
     "is_ethylene_sensitive": false,
     "ethylene_emmission": "very-low",
     "ethylene_sensitivity": null,
-    "image_url": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/lemon_small.gif"
+    "image_url": "/public/images/produce/lemon_small.gif"
   },
   {
     "_id": "lettuce",
@@ -327,7 +327,7 @@
     "is_ethylene_sensitive": false,
     "ethylene_emmission": "very-low",
     "ethylene_sensitivity": null,
-    "image_url": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/lettuceiceberg_small.gif"
+    "image_url": "/public/images/produce/lettuceiceberg_small.gif"
   },
   {
     "_id": "limes",
@@ -338,7 +338,7 @@
     "is_ethylene_sensitive": false,
     "ethylene_emmission": "low",
     "ethylene_sensitivity": null,
-    "image_url": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/07/iStock_000013736793_small.jpg"
+    "image_url": "/public/images/produce/iStock_000013736793_small.jpg"
   },
   {
     "_id": "mushrooms",
@@ -349,7 +349,7 @@
     "is_ethylene_sensitive": false,
     "ethylene_emmission": null,
     "ethylene_sensitivity": null,
-    "image_url": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/mushrooms_small.gif"
+    "image_url": "/public/images/produce/mushrooms_small.gif"
   },
   {
     "_id": "nectarines",
@@ -360,7 +360,7 @@
     "is_ethylene_sensitive": false,
     "ethylene_emmission": "high",
     "ethylene_sensitivity": null,
-    "image_url": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/nectarine_small.gif"
+    "image_url": "/public/images/produce/nectarine_small.gif"
   },
   {
     "_id": "okra",
@@ -371,7 +371,7 @@
     "is_ethylene_sensitive": false,
     "ethylene_emmission": "low",
     "ethylene_sensitivity": null,
-    "image_url": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/okra_small.gif"
+    "image_url": "/public/images/produce/okra_small.gif"
   },
   {
     "_id": "onions-bulb",
@@ -382,7 +382,7 @@
     "is_ethylene_sensitive": false,
     "ethylene_emmission": null,
     "ethylene_sensitivity": null,
-    "image_url": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/onionwhite_small.gif"
+    "image_url": "/public/images/produce/onionwhite_small.gif"
   },
   {
     "_id": "onions-green",
@@ -404,7 +404,7 @@
     "is_ethylene_sensitive": false,
     "ethylene_emmission": "very-low",
     "ethylene_sensitivity": null,
-    "image_url": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/orange_small.gif"
+    "image_url": "/public/images/produce/orange_small.gif"
   },
   {
     "_id": "peaches",
@@ -415,7 +415,7 @@
     "is_ethylene_sensitive": false,
     "ethylene_emmission": "high",
     "ethylene_sensitivity": null,
-    "image_url": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/peach_small.jpg"
+    "image_url": "/public/images/produce/peach_small.jpg"
   },
   {
     "_id": "pears",
@@ -426,7 +426,7 @@
     "is_ethylene_sensitive": false,
     "ethylene_emmission": "high",
     "ethylene_sensitivity": null,
-    "image_url": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/pear_small.jpg"
+    "image_url": "/public/images/produce/pear_small.jpg"
   },
   {
     "_id": "peas-in-pods",
@@ -437,7 +437,7 @@
     "is_ethylene_sensitive": false,
     "ethylene_emmission": null,
     "ethylene_sensitivity": null,
-    "image_url": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/peas_small.gif"
+    "image_url": "/public/images/produce/peas_small.gif"
   },
   {
     "_id": "peppers-bell",
@@ -448,7 +448,7 @@
     "is_ethylene_sensitive": false,
     "ethylene_emmission": "low",
     "ethylene_sensitivity": null,
-    "image_url": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/peppergreen_small.jpg"
+    "image_url": "/public/images/produce/peppergreen_small.jpg"
   },
   {
     "_id": "peppers-hot",
@@ -459,7 +459,7 @@
     "is_ethylene_sensitive": false,
     "ethylene_emmission": "low",
     "ethylene_sensitivity": null,
-    "image_url": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/pepperred_small.jpg"
+    "image_url": "/public/images/produce/pepperred_small.jpg"
   },
   {
     "_id": "pineapple",
@@ -470,7 +470,7 @@
     "is_ethylene_sensitive": false,
     "ethylene_emmission": "low",
     "ethylene_sensitivity": null,
-    "image_url": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/pineapple_small.jpg"
+    "image_url": "/public/images/produce/pineapple_small.jpg"
   },
   {
     "_id": "plums",
@@ -481,7 +481,7 @@
     "is_ethylene_sensitive": false,
     "ethylene_emmission": "high",
     "ethylene_sensitivity": null,
-    "image_url": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/prunes_small.gif"
+    "image_url": "/public/images/produce/prunes_small.gif"
   },
   {
     "_id": "potatoes-early",
@@ -492,7 +492,7 @@
     "is_ethylene_sensitive": false,
     "ethylene_emmission": "high",
     "ethylene_sensitivity": null,
-    "image_url": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/whitepotato_small.gif"
+    "image_url": "/public/images/produce/whitepotato_small.gif"
   },
   {
     "_id": "potatoes-late",
@@ -503,7 +503,7 @@
     "is_ethylene_sensitive": false,
     "ethylene_emmission": "high",
     "ethylene_sensitivity": null,
-    "image_url": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/redpotato_small.gif"
+    "image_url": "/public/images/produce/redpotato_small.gif"
   },
   {
     "_id": "pumpkins",
@@ -514,7 +514,7 @@
     "is_ethylene_sensitive": false,
     "ethylene_emmission": "very-low",
     "ethylene_sensitivity": null,
-    "image_url": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/pumpkin_small.jpg"
+    "image_url": "/public/images/produce/pumpkin_small.jpg"
   },
   {
     "_id": "radishes",
@@ -525,7 +525,7 @@
     "is_ethylene_sensitive": false,
     "ethylene_emmission": null,
     "ethylene_sensitivity": null,
-    "image_url": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/radishes_small.gif"
+    "image_url": "/public/images/produce/radishes_small.gif"
   },
   {
     "_id": "raspberries",
@@ -536,7 +536,7 @@
     "is_ethylene_sensitive": false,
     "ethylene_emmission": "low",
     "ethylene_sensitivity": null,
-    "image_url": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/raspberries_small.gif"
+    "image_url": "/public/images/produce/raspberries_small.gif"
   },
   {
     "_id": "rutabagas",
@@ -547,7 +547,7 @@
     "is_ethylene_sensitive": false,
     "ethylene_emmission": null,
     "ethylene_sensitivity": null,
-    "image_url": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/rutabaga_small.jpg"
+    "image_url": "/public/images/produce/rutabaga_small.jpg"
   },
   {
     "_id": "spinach",
@@ -558,7 +558,7 @@
     "is_ethylene_sensitive": false,
     "ethylene_emmission": "very-low",
     "ethylene_sensitivity": null,
-    "image_url": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/spinach_small.jpg"
+    "image_url": "/public/images/produce/spinach_small.jpg"
   },
   {
     "_id": "squash-summer",
@@ -569,7 +569,7 @@
     "is_ethylene_sensitive": false,
     "ethylene_emmission": "low",
     "ethylene_sensitivity": null,
-    "image_url": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/squash_small.jpg"
+    "image_url": "/public/images/produce/squash_small.jpg"
   },
   {
     "_id": "squash-winter",
@@ -580,7 +580,7 @@
     "is_ethylene_sensitive": false,
     "ethylene_emmission": "very-low",
     "ethylene_sensitivity": null,
-    "image_url": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/squash_small.jpg"
+    "image_url": "/public/images/produce/squash_small.jpg"
   },
   {
     "_id": "strawberries",
@@ -591,7 +591,7 @@
     "is_ethylene_sensitive": false,
     "ethylene_emmission": "very-low",
     "ethylene_sensitivity": null,
-    "image_url": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/strawberries_small-e1426772485578.gif"
+    "image_url": "/public/images/produce/strawberries_small-e1426772485578.gif"
   },
   {
     "_id": "sweet-potatoes",
@@ -602,7 +602,7 @@
     "is_ethylene_sensitive": false,
     "ethylene_emmission": null,
     "ethylene_sensitivity": null,
-    "image_url": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/sweetpotato_small.jpg"
+    "image_url": "/public/images/produce/sweetpotato_small.jpg"
   },
   {
     "_id": "tangerines",
@@ -613,7 +613,7 @@
     "is_ethylene_sensitive": false,
     "ethylene_emmission": "very-low",
     "ethylene_sensitivity": null,
-    "image_url": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/tangerine_small.gif"
+    "image_url": "/public/images/produce/tangerine_small.gif"
   },
   {
     "_id": "tomatoes",
@@ -624,7 +624,7 @@
     "is_ethylene_sensitive": false,
     "ethylene_emmission": "medium",
     "ethylene_sensitivity": null,
-    "image_url": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/tomatosmall.gif"
+    "image_url": "/public/images/produce/tomatosmall.gif"
   },
   {
     "_id": "turnips",
@@ -635,7 +635,7 @@
     "is_ethylene_sensitive": false,
     "ethylene_emmission": "very-low",
     "ethylene_sensitivity": null,
-    "image_url": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/turnip_small.gif"
+    "image_url": "/public/images/produce/turnip_small.gif"
   },
   {
     "_id": "watermelon",
@@ -646,6 +646,6 @@
     "is_ethylene_sensitive": false,
     "ethylene_emmission": "low",
     "ethylene_sensitivity": null,
-    "image_url": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/watermelon_small.gif"
+    "image_url": "/public/images/produce/watermelon_small.gif"
   }
 ]
