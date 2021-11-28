@@ -9,20 +9,22 @@ export interface ProduceDocument {
   name_en: string;
   name_fr: string;
   type: ProduceType;
-  is_climacteric: boolean;
-  is_ethylene_sensitive: boolean;
-  ethylene_emmission?: Scale;
-  ethylene_sensitivity?: Scale;
+  is_climacteric: boolean | null;
+  is_ethylene_sensitive: boolean | null;
+  ethylene_emmission: Scale | null;
+  ethylene_sensitivity: Scale | null;
+  image_url: string | null;
 }
 
 export interface ProduceData {
   id: string;
   name: string;
   type: ProduceType;
-  isClimacteric: boolean;
-  isEthyleneSensitive: boolean;
-  ethyleneEmmission?: Scale;
-  ethyleneSensitivity?: Scale;
+  isClimacteric: boolean | null;
+  isEthyleneSensitive: boolean | null;
+  ethyleneEmmission: Scale | null;
+  ethyleneSensitivity: Scale | null;
+  imageUrl: string | null;
 }
 
 var db = new PouchDB("produce");
@@ -40,6 +42,7 @@ export async function loadProduce(lang: "en" | "fr"): Promise<ProduceData[]> {
         isEthyleneSensitive: x.doc.is_ethylene_sensitive,
         ethyleneEmmission: x.doc.ethylene_emmission,
         ethyleneSensitivity: x.doc.ethylene_sensitivity,
+        imageUrl: x.doc.image_url,
       };
     });
   return produce;

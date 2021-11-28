@@ -1,7 +1,7 @@
-node_modules
+/node_modules
 .DS_Store
-.next
-_static
+/.next
+/_static
 
 # PouchDB
-produce
+/produce

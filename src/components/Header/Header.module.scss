@@ -75,6 +75,10 @@ $desktop: 1080px;
     }
   }
 
+  a {
+    color: #fff;
+  }
+
   @media (min-width: $tablet) {
     height: 60px;
     flex-direction: row;

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styles from "./ProduceList.module.scss";
 
 interface ProduceData {
@@ -27,9 +28,13 @@ export const ProduceList = ({
   return (
     <section className={`${styles["produce-list"]} ${className}`}>
       <h2>{title}</h2>
-      <ul className={query && styles["selected"]}>
+      <ul>
         {produce.map((p) => (
-          <li key={p.id}>{p.name}</li>
+          <li key={p.id}>
+            <Link href={"/produce/" + p.id}>
+              <a>{p.name}</a>
+            </Link>
+          </li>
         ))}
       </ul>
     </section>
