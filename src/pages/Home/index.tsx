@@ -1,12 +1,12 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import { useState } from "react";
-import styles from "../styles/Home.module.css";
-import { Footer } from "./Footer";
-import { Header } from "./Header";
+import styles from "../../styles/Home.module.css";
+import { Footer } from "../../Footer";
+import { Header } from "../../Header";
 import { ProduceList } from "./ProduceList";
 
-const Home: NextPage = () => {
+export const Home: NextPage = () => {
   const [query, setQuery] = useState("");
 
   return (
@@ -38,8 +38,6 @@ const Home: NextPage = () => {
     </div>
   );
 };
-
-export default Home;
 
 const climactericProduce = [
   {

@@ -1,6 +1,5 @@
 import type { NextPage } from "next";
-import { SyntheticEvent } from "react";
-import styles from "../../styles/Home.module.css";
+import styles from "../styles/Home.module.css";
 
 interface HeaderProps {
   onQueryChange: (query: string) => void;
