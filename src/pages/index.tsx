@@ -1,3 +1,7 @@
-import Home from "./Home";
+import {
+  HomeContainer,
+  getStaticProps,
+} from "../components/Home/Home.container";
 
-export default Home;
+export { getStaticProps };
+export default HomeContainer;

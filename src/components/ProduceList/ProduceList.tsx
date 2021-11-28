@@ -1,4 +1,3 @@
-import type { NextPage } from "next";
 import styles from "./ProduceList.module.scss";
 
 interface ProduceData {
@@ -13,14 +12,16 @@ interface ProduceListProps {
   produce: ProduceData[];
 }
 
-export const ProduceList: NextPage<ProduceListProps> = ({
+export const ProduceList = ({
   className,
   query,
   title,
   produce,
-}) => {
+}: ProduceListProps): JSX.Element => {
   if (query) {
-    produce = produce.filter((x) => x.name.toLowerCase().includes(query));
+    produce = produce.filter((x) =>
+      x.name.toLowerCase().includes(query.toLowerCase())
+    );
   }
 
   return (

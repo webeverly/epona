@@ -1,5 +1,62 @@
 [
   {
-    "_id": "banana"
+    "_id": "produce:banana",
+    "name_en": "Banana",
+    "name_fr": "Banane",
+    "type": "fruit",
+    "is_climacteric": false,
+    "is_ethylene_sensitive": false,
+    "ethylene_emmission": "very-low",
+    "ethylene_sensitivity": "low"
+  },
+  {
+    "_id": "produce:apple",
+    "name_en": "Apple",
+    "name_fr": "Pomme",
+    "type": "fruit",
+    "is_climacteric": true,
+    "is_ethylene_sensitive": true,
+    "ethylene_emmission": "high",
+    "ethylene_sensitivity": "medium"
+  },
+  {
+    "_id": "produce:cherry",
+    "name_en": "Cherry",
+    "name_fr": "Cerise",
+    "type": "fruit",
+    "is_climacteric": true,
+    "is_ethylene_sensitive": true,
+    "ethylene_emmission": "medium",
+    "ethylene_sensitivity": "medium"
+  },
+  {
+    "_id": "produce:tomato",
+    "name_en": "Tomato",
+    "name_fr": "Tomate",
+    "type": "vegetable",
+    "is_climacteric": false,
+    "is_ethylene_sensitive": false,
+    "ethylene_emmission": "low",
+    "ethylene_sensitivity": "very-low"
+  },
+  {
+    "_id": "produce:cucumber",
+    "name_en": "Cucumber",
+    "name_fr": "Concombre",
+    "type": "vegetable",
+    "is_climacteric": false,
+    "is_ethylene_sensitive": true,
+    "ethylene_emmission": "very-low",
+    "ethylene_sensitivity": "high"
+  },
+  {
+    "_id": "produce:mango",
+    "name_en": "Mango",
+    "name_fr": "Mangue",
+    "type": "fruit",
+    "is_climacteric": false,
+    "is_ethylene_sensitive": true,
+    "ethylene_emmission": null,
+    "ethylene_sensitivity": null
   }
 ]

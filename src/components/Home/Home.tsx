@@ -2,11 +2,16 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import styles from "./Home.module.scss";
 import { useState } from "react";
-import { Footer } from "../../Footer";
-import { Header } from "../../Header";
-import { ProduceList } from "./ProduceList";
+import { Footer } from "../Footer";
+import { Header } from "../Header";
+import { ProduceList } from "../ProduceList";
+import { ProduceData } from "../../data/produce";
 
-export const Home: NextPage = () => {
+interface HomeProps {
+  produce: ProduceData[];
+}
+
+export const Home: NextPage<HomeProps> = ({ produce }) => {
   const [query, setQuery] = useState("");
 
   return (
@@ -23,13 +28,13 @@ export const Home: NextPage = () => {
         <ProduceList
           title="Climacteric"
           className={styles.climacteric}
-          produce={climactericProduce}
+          produce={(produce ?? []).filter((x) => x.isClimacteric)}
           query={query}
         />
         <ProduceList
           title="Non-Climacteric"
           className={styles["non-climacteric"]}
-          produce={climactericProduce}
+          produce={(produce ?? []).filter((x) => !x.isClimacteric)}
           query={query}
         />
       </main>
@@ -38,18 +43,3 @@ export const Home: NextPage = () => {
     </div>
   );
 };
-
-const climactericProduce = [
-  {
-    id: "banana",
-    name: "Banana",
-  },
-  {
-    id: "apple",
-    name: "Apple",
-  },
-  {
-    id: "cherry",
-    name: "Cherry",
-  },
-];

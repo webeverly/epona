@@ -1,7 +1,6 @@
-import type { NextPage } from "next";
-import styles from "./Footer.module.scss";
+import styles from "../../styles/Home.module.css";
 
-export const Footer: NextPage = () => {
+export const Footer = (): JSX.Element => {
   return (
     <footer className={styles.footer}>
       <a
