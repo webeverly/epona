@@ -14,13 +14,15 @@ export const Header: NextPage<HeaderProps> = ({ onQueryChange }) => {
   return (
     <header className={styles.header}>
       <h1>Search moi climactériques</h1>
-      <input
-        type="text"
-        name="query"
-        placeholder="Search for fruit"
-        onChange={onChange}
-      />{" "}
-      <button>Find fruit with picture</button>
+      <div className={styles.search}>
+        <input
+          type="text"
+          name="query"
+          placeholder="Search for fruit"
+          onChange={onChange}
+        />{" "}
+        <button>Find fruit with picture</button>
+      </div>
     </header>
   );
 };

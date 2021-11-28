@@ -1,3 +1,17 @@
 .produce-list {
-    color: blue;
+  color: blue;
+  background: white;
+  width: 400px;
+  margin: 16px 0;
+  height: 100%;
+  padding: 8px;
+
+  h2 {
+    margin: 4px 8px;
+  }
+
+  li {
+    list-style-type: none;
+    padding: 4px 0;
+  }
 }

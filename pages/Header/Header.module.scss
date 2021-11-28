@@ -1,12 +1,36 @@
-.header {
-  background: #974902;
-  height: 60px;
+$mobile: 320px;
+$tablet: 640px;
+$desktop: 1080px;
 
+$blue: #0156f1;
+$grey: (--grey);
+.header {
+  background: $blue;
+  color: white;
+  text-align: center;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+
+  @media (min-width: $tablet) {
+    height: 60px;
+    flex-direction: row;
+  }
+  .search {
+    display: inline-flex;
+    @media (min-width: $tablet) {
+      max-width: 60vw;
+    }
+  }
   input {
     width: 100%;
     height: 40px;
+    border: none;
   }
   h1 {
-      margin-top: 0;
+    font-size: 28px;
+    margin: 0;
   }
 }
