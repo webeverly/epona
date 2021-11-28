@@ -1,4 +1,4 @@
-import type { NextPage } from "next";
+import { FC } from "react";
 import styles from "./ProduceList.module.css";
 
 interface ProduceData {
@@ -13,7 +13,7 @@ interface ProduceListProps {
   produce: ProduceData[];
 }
 
-export const ProduceList: NextPage<ProduceListProps> = ({
+export const ProduceList: FC<ProduceListProps> = ({
   className,
   query,
   title,
