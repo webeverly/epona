@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styles from "./SearchByImageModal.module.css";
+import styles from "./SearchByImageModal.module.scss";
 
 interface SearchByImageModalProps {
   onClose?: Function;
@@ -13,6 +13,7 @@ export const SearchByImageModal = ({
   className,
 }: SearchByImageModalProps): JSX.Element => {
   const [imageTag, setImageTag] = useState("");
+  const [isModalClosed, setIsModalClosed] = useState(true);
   const onChange = (e: React.FormEvent<HTMLInputElement>) => {
     const newValue = e.currentTarget.value;
     setIsMatchFound(!!newValue);
@@ -28,7 +29,7 @@ export const SearchByImageModal = ({
   };
 
   return (
-    <div className={styles["modal"]}>
+    <div className={show ? styles["modal"] : styles["visuallyhidden"]}>
       <dialog
         className={`${styles["search-by-image-modal"]} ${className}`}
         open={show ? true : false}

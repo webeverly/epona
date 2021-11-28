@@ -1,0 +1,18 @@
+.search-by-image-modal {
+  color: var(--blue);
+  position: absolute;
+  top: 20vh;
+  box-shadow: 20px 20px 50px black;
+}
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 0;
+}
+.visuallyhidden {
+  display: none;
+}

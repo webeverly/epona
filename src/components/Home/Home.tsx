@@ -38,8 +38,6 @@ export const Home: NextPage<HomeProps> = ({ produce }) => {
           query={query}
         />
       </main>
-
-      <Footer />
     </div>
   );
 };

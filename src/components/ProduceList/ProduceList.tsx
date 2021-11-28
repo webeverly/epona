@@ -27,7 +27,7 @@ export const ProduceList = ({
   return (
     <section className={`${styles["produce-list"]} ${className}`}>
       <h2>{title}</h2>
-      <ul className={query && styles["selected"]}>
+      <ul>
         {produce.map((p) => (
           <li key={p.id}>{p.name}</li>
         ))}
