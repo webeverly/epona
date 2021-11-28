@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from "react";
-import ReactDOM from "react-dom";
+import React, { useState } from "react";
 import styles from "./SearchByImageModal.module.css";
 
 interface SearchByImageModalProps {
@@ -12,47 +11,40 @@ export const SearchByImageModal = ({
   onClose,
   show,
   className,
-}: SearchByImageModalProps): JSX.Element | null => {
-  const [isBrowser, setIsBrowser] = useState(false);
+}: SearchByImageModalProps): JSX.Element => {
+  const [imageTag, setImageTag] = useState("");
+  const onChange = (e: React.FormEvent<HTMLInputElement>) => {
+    const newValue = e.currentTarget.value;
+    setIsMatchFound(!!newValue);
+    setImageTag(newValue);
+  };
   const [matchFound, setIsMatchFound] = useState(false);
 
-  useEffect(() => {
-    setIsBrowser(true);
-  }, []);
-
-  const handleCloseClick: any = (e: MouseEvent) => {
+  const closeModal: any = (e: MouseEvent) => {
     e.preventDefault();
     if (onClose != null) {
-      onClose();
+      onClose(imageTag);
     }
   };
 
-  const handleSearchClick: any = (e: MouseEvent) => {
-    e.preventDefault();
-    if (onClose != null) {
-      onClose();
-    }
-  };
-
-  const modalContent = (
-    <dialog className={`${styles["search-by-image-modal"]} ${className}`}>
+  return (
+    <dialog
+      className={`${styles["search-by-image-modal"]} ${className}`}
+      open={show ? true : false}
+    >
       <h1>Recherche par image</h1>
-      Dropzone here
-      <button name="close" onClick={handleCloseClick}>
+      <input
+        type="text"
+        name="imageSearch"
+        placeholder="Drop Image here"
+        onChange={onChange}
+      />
+      <button name="close" onClick={closeModal}>
         Cancel
       </button>
-      <button name="search" onClick={handleSearchClick} disabled={!matchFound}>
+      <button name="search" onClick={closeModal} disabled={!matchFound}>
         Search
       </button>
     </dialog>
   );
-
-  if (isBrowser && show) {
-    return ReactDOM.createPortal(
-      modalContent,
-      document.getElementById("modal-root") as HTMLElement
-    );
-  } else {
-    return null;
-  }
 };

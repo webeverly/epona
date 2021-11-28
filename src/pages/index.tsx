@@ -33,8 +33,6 @@ export default function HomePage() {
         />
       </main>
 
-      <div id="modal-root"></div>
-
       <Footer />
     </div>
   );
