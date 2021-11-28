@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import styles from "./ProduceList.module.css";
+import styles from "./ProduceList.module.scss";
 
 interface ProduceListProps {
   title: string;
