@@ -28,23 +28,25 @@ export const SearchByImageModal = ({
   };
 
   return (
-    <dialog
-      className={`${styles["search-by-image-modal"]} ${className}`}
-      open={show ? true : false}
-    >
-      <h1>Recherche par image</h1>
-      <input
-        type="text"
-        name="imageSearch"
-        placeholder="Drop Image here"
-        onChange={onChange}
-      />
-      <button name="close" onClick={closeModal}>
-        Cancel
-      </button>
-      <button name="search" onClick={closeModal} disabled={!matchFound}>
-        Search
-      </button>
-    </dialog>
+    <div className={styles["modal"]}>
+      <dialog
+        className={`${styles["search-by-image-modal"]} ${className}`}
+        open={show ? true : false}
+      >
+        <h1>Recherche par image</h1>
+        <input
+          type="text"
+          name="imageSearch"
+          placeholder="Drop Image here"
+          onChange={onChange}
+        />
+        <button name="close" onClick={closeModal}>
+          Cancel
+        </button>
+        <button name="search" onClick={closeModal} disabled={!matchFound}>
+          Search
+        </button>
+      </dialog>
+    </div>
   );
 };
