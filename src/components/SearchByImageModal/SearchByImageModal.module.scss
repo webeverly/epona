@@ -19,6 +19,12 @@
   display: none;
 }
 
+.dropzone {
+  border: 2px dashed gray;
+  padding: 2rem;
+  margin: 1rem 0;
+}
+
 .row {
   display: flex;
   flex-direction: row;
