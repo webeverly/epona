@@ -1,1 +1,3 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+# Hackathon 2021 - Akinox
+
+This project is built with [Learn Next.js](https://nextjs.org/learn).
