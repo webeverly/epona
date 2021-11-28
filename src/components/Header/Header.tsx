@@ -34,7 +34,7 @@ export const Header = ({ onQueryChange }: HeaderProps): JSX.Element => {
           <input
             type="text"
             name="query"
-            placeholder="Search for fruit"
+            placeholder="Search by name"
             value={searchValue}
             onChange={onChange}
           />

@@ -4,7 +4,7 @@
   left: 0;
   width: 100vw;
   height: 100vh;
-  min-width: 400px;
+  min-width: 360px;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 5;
   margin: 0;
@@ -21,6 +21,14 @@
     z-index: 10;
     max-height: 90vh;
     overflow: scroll;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    li {
+      margin-bottom: 0.4rem;
+    }
   }
 }
 

@@ -17,7 +17,7 @@ function Main() {
   @{ Name = "name_fr"; Expression = { $_."NOM_FR".Trim() } }, `
   @{ Name = "type"; Expression = { if ($_."TYPE".ToLowerInvariant() -eq "fruit") { "fruit" } else { "vegetable" } } }, `
   @{ Name = "is_climacteric"; Expression = { if ($_."ISCLIMATERIC" -eq 1) { return $true } elseif ($_."ISCLIMATERIC" -eq 0) { return $false } else { return $null } } }, `
-  @{ Name = "is_ethylene_sensitive"; Expression = { $_."ISSENSITIVE" -eq 1 } }, `
+  @{ Name = "is_ethylene_sensitive"; Expression = { $_."ISSENTITIVE" -eq 1 } }, `
   @{ Name = "ethylene_emmission"; Expression = { $_."EMISSION_ETHYLENE".ToLowerInvariant().Replace(" ", "-") } }, `
   @{ Name = "ethylene_sensitivity"; Expression = { $_."SENSIBILITE_ETHYLENE" } }, `
   @{ 

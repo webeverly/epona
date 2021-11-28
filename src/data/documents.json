@@ -5,7 +5,7 @@
     "name_fr": "Pommes",
     "type": "fruit",
     "is_climacteric": true,
-    "is_ethylene_sensitive": false,
+    "is_ethylene_sensitive": true,
     "ethylene_emmission": "high",
     "ethylene_sensitivity": null,
     "image_url": "/public/images/produce/apple_small.gif"
@@ -16,7 +16,7 @@
     "name_fr": "Abricots",
     "type": "fruit",
     "is_climacteric": true,
-    "is_ethylene_sensitive": false,
+    "is_ethylene_sensitive": true,
     "ethylene_emmission": "high",
     "ethylene_sensitivity": null,
     "image_url": "/public/images/produce/apricot_small.jpg"
@@ -26,9 +26,9 @@
     "name_en": "Asparagus",
     "name_fr": "Asperges",
     "type": "vegetable",
-    "is_climacteric": null,
-    "is_ethylene_sensitive": false,
-    "ethylene_emmission": null,
+    "is_climacteric": true,
+    "is_ethylene_sensitive": true,
+    "ethylene_emmission": "medium",
     "ethylene_sensitivity": null,
     "image_url": "/public/images/produce/asparagus_small.jpg"
   },
@@ -38,7 +38,7 @@
     "name_fr": "Avocats",
     "type": "fruit",
     "is_climacteric": true,
-    "is_ethylene_sensitive": false,
+    "is_ethylene_sensitive": true,
     "ethylene_emmission": "high",
     "ethylene_sensitivity": null,
     "image_url": "/public/images/produce/avocado_small.jpg"
@@ -49,7 +49,7 @@
     "name_fr": "Bananes",
     "type": "fruit",
     "is_climacteric": true,
-    "is_ethylene_sensitive": false,
+    "is_ethylene_sensitive": true,
     "ethylene_emmission": "medium",
     "ethylene_sensitivity": null,
     "image_url": "/public/images/produce/banana_small.gif"
@@ -60,7 +60,7 @@
     "name_fr": "Haricots, snap",
     "type": "vegetable",
     "is_climacteric": false,
-    "is_ethylene_sensitive": false,
+    "is_ethylene_sensitive": true,
     "ethylene_emmission": "very-low",
     "ethylene_sensitivity": null,
     "image_url": "/public/images/produce/greenbeans_small.gif"
@@ -70,9 +70,9 @@
     "name_en": "Beans, lima",
     "name_fr": "Haricots, lima",
     "type": "vegetable",
-    "is_climacteric": null,
+    "is_climacteric": false,
     "is_ethylene_sensitive": false,
-    "ethylene_emmission": null,
+    "ethylene_emmission": "very-low",
     "ethylene_sensitivity": null,
     "image_url": null
   },
@@ -115,7 +115,7 @@
     "name_fr": "Brocoli",
     "type": "vegetable",
     "is_climacteric": false,
-    "is_ethylene_sensitive": false,
+    "is_ethylene_sensitive": true,
     "ethylene_emmission": "low",
     "ethylene_sensitivity": null,
     "image_url": "/public/images/produce/broccoli_small.jpg"
@@ -126,7 +126,7 @@
     "name_fr": "Choux de Bruxelles",
     "type": "vegetable",
     "is_climacteric": false,
-    "is_ethylene_sensitive": false,
+    "is_ethylene_sensitive": true,
     "ethylene_emmission": "low",
     "ethylene_sensitivity": null,
     "image_url": "/public/images/produce/brusselssprouts_small.jpg"
@@ -137,7 +137,7 @@
     "name_fr": "Chou",
     "type": "vegetable",
     "is_climacteric": true,
-    "is_ethylene_sensitive": false,
+    "is_ethylene_sensitive": true,
     "ethylene_emmission": "medium",
     "ethylene_sensitivity": null,
     "image_url": "/public/images/produce/cabbagegreen_small.gif"
@@ -148,7 +148,7 @@
     "name_fr": "Cantaloup",
     "type": "fruit",
     "is_climacteric": true,
-    "is_ethylene_sensitive": false,
+    "is_ethylene_sensitive": true,
     "ethylene_emmission": null,
     "ethylene_sensitivity": null,
     "image_url": "/public/images/produce/cantaloupe_small.gif"
@@ -159,7 +159,7 @@
     "name_fr": "Carottes, garnies",
     "type": "vegetable",
     "is_climacteric": false,
-    "is_ethylene_sensitive": false,
+    "is_ethylene_sensitive": true,
     "ethylene_emmission": "low",
     "ethylene_sensitivity": null,
     "image_url": "/public/images/produce/carrots_small.jpg"
@@ -169,9 +169,9 @@
     "name_en": "Cauliflower",
     "name_fr": "Chou-fleur",
     "type": "vegetable",
-    "is_climacteric": null,
+    "is_climacteric": false,
     "is_ethylene_sensitive": false,
-    "ethylene_emmission": "medium",
+    "ethylene_emmission": "low",
     "ethylene_sensitivity": null,
     "image_url": "/public/images/produce/cauliflower_small.jpg"
   },
@@ -181,7 +181,7 @@
     "name_fr": "Céleri",
     "type": "vegetable",
     "is_climacteric": false,
-    "is_ethylene_sensitive": false,
+    "is_ethylene_sensitive": true,
     "ethylene_emmission": "low",
     "ethylene_sensitivity": null,
     "image_url": "/public/images/produce/celery_small.jpg"
@@ -202,9 +202,9 @@
     "name_en": "Corn, sweet",
     "name_fr": "Maïs sucré",
     "type": "vegetable",
-    "is_climacteric": null,
+    "is_climacteric": false,
     "is_ethylene_sensitive": false,
-    "ethylene_emmission": null,
+    "ethylene_emmission": "very-low",
     "ethylene_sensitivity": null,
     "image_url": "/public/images/produce/corn_small.jpg"
   },
@@ -215,7 +215,7 @@
     "type": "fruit",
     "is_climacteric": false,
     "is_ethylene_sensitive": false,
-    "ethylene_emmission": null,
+    "ethylene_emmission": "low",
     "ethylene_sensitivity": null,
     "image_url": "/public/images/produce/Cranberriesforwebsite1.jpg"
   },
@@ -225,7 +225,7 @@
     "name_fr": "Concombres",
     "type": "vegetable",
     "is_climacteric": false,
-    "is_ethylene_sensitive": false,
+    "is_ethylene_sensitive": true,
     "ethylene_emmission": "low",
     "ethylene_sensitivity": null,
     "image_url": "/public/images/produce/cucumber_small.jpg"
@@ -236,7 +236,7 @@
     "name_fr": "Aubergine",
     "type": "vegetable",
     "is_climacteric": false,
-    "is_ethylene_sensitive": false,
+    "is_ethylene_sensitive": true,
     "ethylene_emmission": "low",
     "ethylene_sensitivity": null,
     "image_url": "/public/images/produce/eggplant_small.gif"
@@ -246,9 +246,9 @@
     "name_en": "Endive",
     "name_fr": "Endive",
     "type": "vegetable",
-    "is_climacteric": null,
-    "is_ethylene_sensitive": false,
-    "ethylene_emmission": null,
+    "is_climacteric": false,
+    "is_ethylene_sensitive": true,
+    "ethylene_emmission": "very-low",
     "ethylene_sensitivity": null,
     "image_url": null
   },
@@ -257,9 +257,9 @@
     "name_en": "Garlic",
     "name_fr": "Ail",
     "type": "vegetable",
-    "is_climacteric": null,
+    "is_climacteric": false,
     "is_ethylene_sensitive": false,
-    "ethylene_emmission": null,
+    "ethylene_emmission": "very-low",
     "ethylene_sensitivity": null,
     "image_url": null
   },
@@ -291,8 +291,8 @@
     "name_fr": "Kiwis",
     "type": "fruit",
     "is_climacteric": true,
-    "is_ethylene_sensitive": false,
-    "ethylene_emmission": null,
+    "is_ethylene_sensitive": true,
+    "ethylene_emmission": "high",
     "ethylene_sensitivity": null,
     "image_url": "/public/images/produce/kiwi_small.gif"
   },
@@ -302,7 +302,7 @@
     "name_fr": "Poireaux",
     "type": "vegetable",
     "is_climacteric": true,
-    "is_ethylene_sensitive": false,
+    "is_ethylene_sensitive": true,
     "ethylene_emmission": "high",
     "ethylene_sensitivity": null,
     "image_url": "/public/images/produce/leeks_small.gif"
@@ -324,7 +324,7 @@
     "name_fr": "Laitue",
     "type": "vegetable",
     "is_climacteric": false,
-    "is_ethylene_sensitive": false,
+    "is_ethylene_sensitive": true,
     "ethylene_emmission": "very-low",
     "ethylene_sensitivity": null,
     "image_url": "/public/images/produce/lettuceiceberg_small.gif"
@@ -345,9 +345,9 @@
     "name_en": "Mushrooms",
     "name_fr": "Champignons",
     "type": "vegetable",
-    "is_climacteric": null,
+    "is_climacteric": false,
     "is_ethylene_sensitive": false,
-    "ethylene_emmission": null,
+    "ethylene_emmission": "very-low",
     "ethylene_sensitivity": null,
     "image_url": "/public/images/produce/mushrooms_small.gif"
   },
@@ -357,7 +357,7 @@
     "name_fr": "Nectarines",
     "type": "fruit",
     "is_climacteric": true,
-    "is_ethylene_sensitive": false,
+    "is_ethylene_sensitive": true,
     "ethylene_emmission": "high",
     "ethylene_sensitivity": null,
     "image_url": "/public/images/produce/nectarine_small.gif"
@@ -368,7 +368,7 @@
     "name_fr": "Gombo",
     "type": "vegetable",
     "is_climacteric": false,
-    "is_ethylene_sensitive": false,
+    "is_ethylene_sensitive": true,
     "ethylene_emmission": "low",
     "ethylene_sensitivity": null,
     "image_url": "/public/images/produce/okra_small.gif"
@@ -378,9 +378,9 @@
     "name_en": "Onions, bulb",
     "name_fr": "Oignons, bulbe",
     "type": "vegetable",
-    "is_climacteric": null,
+    "is_climacteric": false,
     "is_ethylene_sensitive": false,
-    "ethylene_emmission": null,
+    "ethylene_emmission": "very-low",
     "ethylene_sensitivity": null,
     "image_url": "/public/images/produce/onionwhite_small.gif"
   },
@@ -389,9 +389,9 @@
     "name_en": "Onions, green",
     "name_fr": "Oignons verts",
     "type": "vegetable",
-    "is_climacteric": null,
+    "is_climacteric": false,
     "is_ethylene_sensitive": false,
-    "ethylene_emmission": null,
+    "ethylene_emmission": "very-low",
     "ethylene_sensitivity": null,
     "image_url": null
   },
@@ -412,7 +412,7 @@
     "name_fr": "Pêches",
     "type": "fruit",
     "is_climacteric": true,
-    "is_ethylene_sensitive": false,
+    "is_ethylene_sensitive": true,
     "ethylene_emmission": "high",
     "ethylene_sensitivity": null,
     "image_url": "/public/images/produce/peach_small.jpg"
@@ -423,7 +423,7 @@
     "name_fr": "Poires",
     "type": "fruit",
     "is_climacteric": true,
-    "is_ethylene_sensitive": false,
+    "is_ethylene_sensitive": true,
     "ethylene_emmission": "high",
     "ethylene_sensitivity": null,
     "image_url": "/public/images/produce/pear_small.jpg"
@@ -433,9 +433,9 @@
     "name_en": "Peas, in pods",
     "name_fr": "Pois, en gousses",
     "type": "vegetable",
-    "is_climacteric": null,
-    "is_ethylene_sensitive": false,
-    "ethylene_emmission": null,
+    "is_climacteric": false,
+    "is_ethylene_sensitive": true,
+    "ethylene_emmission": "very-low",
     "ethylene_sensitivity": null,
     "image_url": "/public/images/produce/peas_small.gif"
   },
@@ -445,7 +445,7 @@
     "name_fr": "Poivrons, cloche",
     "type": "vegetable",
     "is_climacteric": false,
-    "is_ethylene_sensitive": false,
+    "is_ethylene_sensitive": true,
     "ethylene_emmission": "low",
     "ethylene_sensitivity": null,
     "image_url": "/public/images/produce/peppergreen_small.jpg"
@@ -456,7 +456,7 @@
     "name_fr": "Poivrons, chauds",
     "type": "vegetable",
     "is_climacteric": false,
-    "is_ethylene_sensitive": false,
+    "is_ethylene_sensitive": true,
     "ethylene_emmission": "low",
     "ethylene_sensitivity": null,
     "image_url": "/public/images/produce/pepperred_small.jpg"
@@ -478,7 +478,7 @@
     "name_fr": "Prunes",
     "type": "vegetable",
     "is_climacteric": true,
-    "is_ethylene_sensitive": false,
+    "is_ethylene_sensitive": true,
     "ethylene_emmission": "high",
     "ethylene_sensitivity": null,
     "image_url": "/public/images/produce/prunes_small.gif"
@@ -500,7 +500,7 @@
     "name_fr": "Pommes de terre, en retard",
     "type": "vegetable",
     "is_climacteric": true,
-    "is_ethylene_sensitive": false,
+    "is_ethylene_sensitive": true,
     "ethylene_emmission": "high",
     "ethylene_sensitivity": null,
     "image_url": "/public/images/produce/redpotato_small.gif"
@@ -521,9 +521,9 @@
     "name_en": "Radishes",
     "name_fr": "Radis",
     "type": "vegetable",
-    "is_climacteric": null,
+    "is_climacteric": false,
     "is_ethylene_sensitive": false,
-    "ethylene_emmission": null,
+    "ethylene_emmission": "very-low",
     "ethylene_sensitivity": null,
     "image_url": "/public/images/produce/radishes_small.gif"
   },
@@ -533,7 +533,7 @@
     "name_fr": "Framboises",
     "type": "fruit",
     "is_climacteric": false,
-    "is_ethylene_sensitive": false,
+    "is_ethylene_sensitive": true,
     "ethylene_emmission": "low",
     "ethylene_sensitivity": null,
     "image_url": "/public/images/produce/raspberries_small.gif"
@@ -543,9 +543,9 @@
     "name_en": "Rutabagas",
     "name_fr": "Rutabagas",
     "type": "vegetable",
-    "is_climacteric": null,
+    "is_climacteric": false,
     "is_ethylene_sensitive": false,
-    "ethylene_emmission": null,
+    "ethylene_emmission": "very-low",
     "ethylene_sensitivity": null,
     "image_url": "/public/images/produce/rutabaga_small.jpg"
   },
@@ -555,7 +555,7 @@
     "name_fr": "Épinards",
     "type": "vegetable",
     "is_climacteric": false,
-    "is_ethylene_sensitive": false,
+    "is_ethylene_sensitive": true,
     "ethylene_emmission": "very-low",
     "ethylene_sensitivity": null,
     "image_url": "/public/images/produce/spinach_small.jpg"
@@ -566,7 +566,7 @@
     "name_fr": "Squash, été",
     "type": "vegetable",
     "is_climacteric": false,
-    "is_ethylene_sensitive": false,
+    "is_ethylene_sensitive": true,
     "ethylene_emmission": "low",
     "ethylene_sensitivity": null,
     "image_url": "/public/images/produce/squash_small.jpg"
@@ -599,7 +599,7 @@
     "name_fr": "Patates douces",
     "type": "vegetable",
     "is_climacteric": null,
-    "is_ethylene_sensitive": false,
+    "is_ethylene_sensitive": true,
     "ethylene_emmission": null,
     "ethylene_sensitivity": null,
     "image_url": "/public/images/produce/sweetpotato_small.jpg"
@@ -621,7 +621,7 @@
     "name_fr": "Tomates",
     "type": "vegetable",
     "is_climacteric": true,
-    "is_ethylene_sensitive": false,
+    "is_ethylene_sensitive": true,
     "ethylene_emmission": "medium",
     "ethylene_sensitivity": null,
     "image_url": "/public/images/produce/tomatosmall.gif"
