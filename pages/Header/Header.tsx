@@ -1,12 +1,26 @@
 import type { NextPage } from "next";
+import { SyntheticEvent } from "react";
 import styles from "../../styles/Home.module.css";
 
-export const Header: NextPage = () => {
+interface HeaderProps {
+  onQueryChange: (query: string) => void;
+}
+
+export const Header: NextPage<HeaderProps> = ({ onQueryChange }) => {
+  const onChange = (e: React.FormEvent<HTMLInputElement>) => {
+    const newValue = e.currentTarget.value;
+    onQueryChange(newValue);
+  };
   return (
-      <header className={styles.header}>
-        <h1>Search moi  climactériques</h1>
-        <input type="text" name="query" placeholder="Search for fruit" />
-        <button >Find fruit with picture</button>
-      </header>
+    <header className={styles.header}>
+      <h1>Search moi climactériques</h1>
+      <input
+        type="text"
+        name="query"
+        placeholder="Search for fruit"
+        onChange={onChange}
+      />
+      <button>Find fruit with picture</button>
+    </header>
   );
 };
