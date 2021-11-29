@@ -1,13 +1,13 @@
-import "../styles/globals.scss";
+import React from "react";
 import type { AppProps } from "next/app";
-import { Footer } from "../components/Footer";
+import "../styles/globals.scss";
+import Layout from "../components/Layout/Layout";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <div className="root">
+    <Layout>
       <Component {...pageProps} />
-      <Footer />
-    </div>
+    </Layout>
   );
 }
 

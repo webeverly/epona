@@ -3,6 +3,10 @@ const withPWA = require("next-pwa");
 /** @type {import('next').NextConfig} */
 const settings = {
   reactStrictMode: true,
+  i18n: {
+    locales: ["en", "fr"],
+    defaultLocale: "en",
+  },
 };
 
 module.exports =
